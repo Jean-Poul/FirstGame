@@ -12,11 +12,8 @@ public class gravityFall : MonoBehaviour
 
     void OnCollisionExit(Collision other)
     {
-        Debug.Log("Nigga exited!");
         platform.mass = 1.0f;
         platform.useGravity = true;
-        
-
     }
 
 }
