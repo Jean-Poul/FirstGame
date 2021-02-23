@@ -1,4 +1,4 @@
-/*using UnityEngine;
+using UnityEngine;
 
 public class MyFirstScript : MonoBehaviour //: means implement
 {
@@ -14,6 +14,7 @@ public class MyFirstScript : MonoBehaviour //: means implement
     {
         Debug.Log(collider.gameObject.name);
         rigidbody.AddForce(Vector3.up * 100);
+
     }
 
     void Update() // Update is called for every frame
@@ -28,4 +29,3 @@ public class MyFirstScript : MonoBehaviour //: means implement
     }
 
 }
-*/
