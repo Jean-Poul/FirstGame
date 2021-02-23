@@ -6,7 +6,7 @@ public class MyFirstScript : MonoBehaviour //: means implement
 
     void Start() // Start is called before the first frame update
     {
-//        rigidbody = GetComponent<Rigidbody>();
+        //        rigidbody = GetComponent<Rigidbody>();
     }
 
 
@@ -23,9 +23,9 @@ public class MyFirstScript : MonoBehaviour //: means implement
         {
             Debug.Log("H key was pressed"); // C# sout
             rigidbody.AddForce(Vector3.up * 1000); // Adds collision force for y axis
-            
-        }   
-        
+
+        }
+
     }
 
 }
